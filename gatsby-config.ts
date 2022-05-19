@@ -8,7 +8,7 @@ const config: GatsbyConfig = {
   plugins: [{
     resolve: 'gatsby-source-wordpress',
     options: {
-      "url": "https://tiburontastic.wpengine.com/"
+      "url": "https://tiburontastic.wpengine.com/graphql"
     }
   }, "gatsby-plugin-react-helmet", "gatsby-plugin-sitemap"]
 };
